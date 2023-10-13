@@ -1,18 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 function ProfileImage(props) {
-  const [text, setText] = useState("First Last");
-
-  const handleTextChange = () => {
-    var name = "Norsang Nyandak";
-    setText(name);
-  };
+  let profileInfo = props.profileInfo;
 
   return (
     <div className="Profile">
-      <img src={props.src} />
-      <h1>{text}</h1>
-      <button onClick={handleTextChange}>Name</button>
+      <img src={profileInfo.src} alt={profileInfo.fname} />
+      <h3>{profileInfo.fname + " " + profileInfo.lname} </h3>
     </div>
   );
 }
