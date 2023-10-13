@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Icon from "./Components/Icon";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Icon src={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}></Icon>
+      <Icon
+        src={
+          "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"
+        }
+      ></Icon>
     </div>
   );
 }
