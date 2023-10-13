@@ -3,7 +3,8 @@ import Icon from "./Icon";
 import ProfileImage from "./ProfileImage";
 
 function Header() {
-  let source = "https://cdn-icons-png.flaticon.com/512/147/147144.png";
+  let source =
+    "https://media.licdn.com/dms/image/D4E03AQHd-_CHqpc2KA/profile-displayphoto-shrink_400_400/0/1664411899093?e=1702512000&v=beta&t=uSXzFHBg6iDvxqKmAbd9xFhgjwG9xVtywMyNNOGlTU4";
   let name = { fname: "Tsewang", lname: "Nyandak" };
 
   let profileInformation = {
