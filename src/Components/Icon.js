@@ -2,7 +2,9 @@ function Icon(props) {
   return (
     <div className="Icon">
       {" "}
-      <img src={props.src}></img>{" "}
+      <a href={props.href} target="_blank">
+        <img src={props.src}></img>
+      </a>
     </div>
   );
 }
