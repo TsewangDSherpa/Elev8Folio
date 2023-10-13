@@ -28,7 +28,7 @@
 
 /* Start Profile Image CSS */
 
-.Profile{
+.Profile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,8 @@
 
 /* End Profile Image CSS */
 
-.Header{
+/* Start Header CSS */
+.Header {
   padding: 3em;
   display: flex;
   flex-direction: column;
@@ -54,9 +55,36 @@
 
 }
 
-.Icons{
+.Icons {
   display: flex;
   flex-direction: row;
 
-  gap:2em;
+  gap: 2em;
 }
+
+/* End Header CSS */
+
+/* Start Sume CSS */
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 2em;
+
+
+}
+
+.Sume {
+  display: block;
+
+
+  width: 45em;
+  height: 20em;
+  background-color: rgba(159, 237, 255, 0.366);
+  outline: 10px solid rgba(122, 101, 255, 0.402);
+
+}
+
+
+/* End Sume CSS */
