@@ -28,7 +28,10 @@ function Header() {
     <div className="Header" style={{ backgroundColor: color }}>
       <ProfileImage profileInfo={profileInformation} />
       <div className="Icons">
-        <Icon src={"https://cdn-icons-png.flaticon.com/512/25/25231.png"} />
+        <Icon
+          href="https://www.linkedin.com/in/norsang-nyandak-077577173/"
+          src={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}
+        />
         <Icon
           src={
             "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"

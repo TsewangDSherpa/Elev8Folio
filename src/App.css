@@ -11,6 +11,10 @@
 
 }
 
+.Icon a {
+  width: inherit;
+}
+
 .Icon {
   display: flex;
   justify-content: center;
@@ -57,6 +61,18 @@
 .Icons{
   display: flex;
   flex-direction: row;
-
   gap:2em;
 }
+
+/* Start Sume Nav */
+.sumeNav{
+  display: flex;
+  flex-direction: row;
+  gap:2em;
+  background-color: red;
+  margin: 1em 2em;  
+  align-items: center;
+  justify-content: center;
+}
+
+/* End Sume Nav */
