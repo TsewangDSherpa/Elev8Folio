@@ -11,7 +11,9 @@ function App() {
           "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"
         }
       />
-      <ProfileImage />
+      <ProfileImage
+        src={"https://cdn-icons-png.flaticon.com/512/147/147144.png"}
+      />
     </div>
   );
 }
