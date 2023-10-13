@@ -1,6 +1,7 @@
-function SumeNav() {
+function SumeNav(props) {
+  let sume = { school: "" };
   return (
-    <div className="sumeNav">
+    <div className="sumeNav" style={{ backgroundColor: props.bgColor }}>
       <a href="">
         <h3>Test</h3>
       </a>

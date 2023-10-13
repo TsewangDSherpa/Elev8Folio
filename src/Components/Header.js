@@ -2,7 +2,9 @@ import Icon from "./Icon";
 
 import ProfileImage from "./ProfileImage";
 
-function Header() {
+import { useEffect } from "react";
+
+function Header(props) {
   let source =
     "https://media.licdn.com/dms/image/D4E03AQHd-_CHqpc2KA/profile-displayphoto-shrink_400_400/0/1664411899093?e=1702512000&v=beta&t=uSXzFHBg6iDvxqKmAbd9xFhgjwG9xVtywMyNNOGlTU4";
   let name = { fname: "Tsewang", lname: "Nyandak" };
@@ -21,9 +23,12 @@ function Header() {
     "#DBDAEA",
     "#FFF689",
   ];
+
   const randomIndex = Math.floor(Math.random() * colors.length);
   const color = colors[randomIndex];
-
+  useEffect(() => {
+    props.getColor(color);
+  }, [color]);
   return (
     <div className="Header" style={{ backgroundColor: color }}>
       <ProfileImage profileInfo={profileInformation} />
