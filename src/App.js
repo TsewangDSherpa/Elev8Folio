@@ -6,10 +6,13 @@ import { useState } from "react";
 
 function App() {
   const [Color, setColor] = useState("");
+  
   const getColor = (color) => {
+    
     setColor(color);
+  
   };
-
+  console.log("The RBG" )
   return (
     <>
       <Header getColor={getColor} />
