@@ -19,8 +19,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
   width: 2em;
   height: 2em;
 }
@@ -28,7 +26,7 @@
 .Icon img {
   width: inherit;
   border-radius: 50%;
-   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.368);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.368);
 
 }
 
@@ -84,7 +82,7 @@
   justify-content: center;
 }
 
-.sumeNav ul{
+.sumeNav ul {
   height: inherit;
   display: flex;
   flex-direction: row;
@@ -142,3 +140,87 @@
 
 
 /* End Sume CSS */
+
+
+
+/* Home Page CSS Start*/
+
+.HomePageHolder {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 248, 248);
+}
+
+.HomePageHeader {
+  background-color: rgb(71, 217, 212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePageTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 2.9em;
+  margin-top: 1em;
+}
+
+.PHolder {
+  /* background-color: red; */
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: rgb(72, 68, 68);
+  display: block;
+  background-color: rgb(71, 217, 212);
+
+}
+
+.PHolder span {
+  font-family: cursive;
+  font-size: 0.7em;
+}
+
+.HPP1 {
+  position: relative;
+  margin: 0em;
+  right: 5em;
+  background-color: rgb(71, 217, 212);
+  border-radius: 20%;
+}
+
+.whiteCircle {
+  height: 0.7em;
+  width: 0.7em;
+  position: relative;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 50%;
+  left: 5.5em;
+
+}
+
+
+.HPP2 {
+  position: relative;
+  right: -5em;
+  margin: 0em;
+  background-color: rgb(71, 217, 212);
+  border-radius: 20%;
+}
+
+
+.StepOne {
+  font-size: bolder;
+
+}
+
+.StepOne span:hover {
+
+  cursor: pointer;
+}
+
+/* Home Page CSS End */

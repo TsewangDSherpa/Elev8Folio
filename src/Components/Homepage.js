@@ -1,17 +1,28 @@
 function Homepage() {
+  const clicked = () => {
+    alert("Upload my friend");
+  };
+
   return (
     <div className="HomePageHolder">
-      <div className="Header">
-        <h2 className="Title">Elev8Folio</h2>
-        <div>
-          <p> Made for Students</p>
-          <p> From two Students</p>
+      <div className="HomePageHeader">
+        <h2 className="HomePageTitle">Elev8Folio</h2>
+        <div className="PHolder">
+          <p className="HPP1">
+            {" "}
+            Made <span>for</span> Students
+          </p>
+          <span className="whiteCircle"></span>
+          <p className="HPP2">
+            {" "}
+            From <span>two</span> Students
+          </p>
         </div>
       </div>
-      <div className="Body">
+      <div className="HomePageBody">
         <div className="StepOne">
           <p>
-            Step 1: <span> Upload Resume </span>
+            STEP 1: <span onClick={clicked}> Upload Resume </span>
           </p>
         </div>
       </div>
